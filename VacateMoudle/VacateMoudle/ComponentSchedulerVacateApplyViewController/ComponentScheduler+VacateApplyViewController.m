@@ -24,7 +24,7 @@
     
     params[@"uuid"] = uuid;
     
-    return [self performTarget:@"VacateApply" action:@"Action_viewControllerDetail" params:params shouldCacheTarget:NO];
+    return [self performTarget:@"VacateApply" action:@"viewControllerDetail" params:params shouldCacheTarget:NO];
 }
 
 
