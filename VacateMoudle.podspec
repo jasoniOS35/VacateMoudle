@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "VacateMoudle"
-  s.version          = "1.0.4"
+  s.version          = "1.0.5"
   s.summary          = "请假."
   s.description      = <<-DESC
                        请假模块.
