@@ -18,7 +18,7 @@
     return VC;
 }
 
-- (UIViewController *)Action_viewControllerDeatil:(NSDictionary *)params {
+- (UIViewController *)Action_viewControllerDetail:(NSDictionary *)params {
     
     DetailViewController *VC = [[DetailViewController alloc] init];
 //    VC.callBack = params[@"uuid"];
