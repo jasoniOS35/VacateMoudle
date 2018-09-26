@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIViewController *)VacateApply_viewControllerWithCallback:(void(^)(NSString *result))callback;
 
 
+- (UIViewController *)VacateApply_viewControllerDetail:(NSString *)uuid;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

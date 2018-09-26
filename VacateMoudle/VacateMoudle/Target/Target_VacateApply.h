@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params;
 
+- (UIViewController *)Action_viewControllerDeatil:(NSDictionary *)params;
 @end
 
 NS_ASSUME_NONNULL_END

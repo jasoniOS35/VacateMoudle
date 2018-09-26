@@ -17,4 +17,15 @@
     return [self performTarget:@"VacateApply" action:@"viewController" params:params shouldCacheTarget:NO];
 }
 
+
+- (UIViewController *)VacateApply_viewControllerDetail:(NSString *)uuid{
+    
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    
+    params[@"uuid"] = uuid;
+    
+    return [self performTarget:@"VacateApply" action:@"viewControllerDetail" params:params shouldCacheTarget:NO];
+}
+
+
 @end

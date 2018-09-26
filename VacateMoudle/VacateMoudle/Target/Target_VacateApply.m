@@ -8,6 +8,7 @@
 
 #import "Target_VacateApply.h"
 #import "VacateApplyViewController.h"
+#import "DetailViewController.h"
 @implementation Target_VacateApply
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params {
@@ -16,5 +17,13 @@
     VC.callBack = params[@"callback"];
     return VC;
 }
+
+- (UIViewController *)Action_viewControllerDeatil:(NSDictionary *)params {
+    
+    DetailViewController *VC = [[DetailViewController alloc] init];
+//    VC.callBack = params[@"uuid"];
+    return VC;
+}
+
 
 @end

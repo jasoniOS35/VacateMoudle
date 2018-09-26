@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.title = @"我是详情页面";
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
