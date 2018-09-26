@@ -1,0 +1,16 @@
+PODS:
+  - ComponentScheduler (1.0.0)
+
+DEPENDENCIES:
+  - ComponentScheduler
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ComponentScheduler
+
+SPEC CHECKSUMS:
+  ComponentScheduler: 56d45ced565afcee8a2c4a34414c5df937bf9812
+
+PODFILE CHECKSUM: b1547e1c72180c94eb076bb0076d3db9bf775b77
+
+COCOAPODS: 1.6.0.beta.1
