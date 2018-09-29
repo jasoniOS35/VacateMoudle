@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "VacateMoudle"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "请假."
   s.description      = <<-DESC
                        请假模块.
@@ -12,7 +12,12 @@ Pod::Spec.new do |s|
   s.author           = { "tc" => "17602188056@163.com" }
   s.platform         = :ios, '9.0'
   s.source           = { :git => "https://github.com/jasoniOS35/VacateMoudle.git", :tag => s.version }
-  s.source_files     = "Classes", "VacateMoudle/VacateMoudle/Target", "VacateMoudle/VacateMoudle","VacateMoudle/VacateMoudle/ComponentSchedulerVacateApplyViewController"
+  s.source_files     = "Classes", "VacateMoudle/VacateMoudle/Target", "VacateMoudle/VacateMoudle"
+  s.subspec 'ComponentSchedulerVacateApplyViewController' do |ss|
+    ss.source_files = "VacateMoudle/VacateMoudle/ComponentSchedulerVacateApplyViewController"
+
+  end
+
   s.requires_arc     = true
   s.dependency "ComponentScheduler", "~> 1.0.0"
 

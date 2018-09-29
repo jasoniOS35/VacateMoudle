@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		498FA6C51DB470FDBD58FEE3 /* libPods-VacateMoudle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4461DBB9993869AFDD2A3A /* libPods-VacateMoudle.a */; };
-		533603772159CC0B00D588F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533603752159CC0B00D588F5 /* Main.storyboard */; };
+		530ACEAA215B5C2D00E128B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ACEA9215B5C2D00E128B8 /* main.m */; };
+		530ACEAC215B5D3D00E128B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530ACEAB215B5D3D00E128B8 /* Main.storyboard */; };
+		530ACEAF215B5D7B00E128B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530ACEAD215B5D7B00E128B8 /* AppDelegate.m */; };
 		5336037A2159CC0B00D588F5 /* VacateMoudle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 533603782159CC0B00D588F5 /* VacateMoudle.xcdatamodeld */; };
 		5336037C2159CC0C00D588F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5336037B2159CC0C00D588F5 /* Assets.xcassets */; };
 		5336037F2159CC0C00D588F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5336037D2159CC0C00D588F5 /* LaunchScreen.storyboard */; };
@@ -40,8 +42,11 @@
 
 /* Begin PBXFileReference section */
 		2D4461DBB9993869AFDD2A3A /* libPods-VacateMoudle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VacateMoudle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		530ACEA9215B5C2D00E128B8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		530ACEAB215B5D3D00E128B8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		530ACEAD215B5D7B00E128B8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		530ACEAE215B5D7B00E128B8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5336036C2159CC0B00D588F5 /* VacateMoudle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VacateMoudle.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		533603762159CC0B00D588F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		533603792159CC0B00D588F5 /* VacateMoudle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VacateMoudle.xcdatamodel; sourceTree = "<group>"; };
 		5336037B2159CC0C00D588F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5336037E2159CC0C00D588F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +103,6 @@
 				ADFF84B628485CA5EB781A52 /* Pods-VacateMoudle.debug.xcconfig */,
 				82598419AFAB5947EF580035 /* Pods-VacateMoudle.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -127,15 +131,18 @@
 		5336036E2159CC0B00D588F5 /* VacateMoudle */ = {
 			isa = PBXGroup;
 			children = (
+				530ACEAE215B5D7B00E128B8 /* AppDelegate.h */,
+				530ACEAD215B5D7B00E128B8 /* AppDelegate.m */,
 				53C1DD822159DF5400D3F3EF /* Target */,
 				53C1DD7E2159DE7B00D3F3EF /* ComponentSchedulerVacateApplyViewController */,
-				533603752159CC0B00D588F5 /* Main.storyboard */,
 				5351E66D215A2991005DFF9A /* DetailViewController.h */,
 				5351E66B215A2991005DFF9A /* DetailViewController.m */,
 				5351E66A215A2991005DFF9A /* VacateApplyViewController.h */,
 				5351E66C215A2991005DFF9A /* VacateApplyViewController.m */,
 				5336037B2159CC0C00D588F5 /* Assets.xcassets */,
 				5336037D2159CC0C00D588F5 /* LaunchScreen.storyboard */,
+				530ACEAB215B5D3D00E128B8 /* Main.storyboard */,
+				530ACEA9215B5C2D00E128B8 /* main.m */,
 				533603802159CC0C00D588F5 /* Info.plist */,
 				533603782159CC0B00D588F5 /* VacateMoudle.xcdatamodeld */,
 			);
@@ -291,9 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530ACEAC215B5D3D00E128B8 /* Main.storyboard in Resources */,
 				5336037F2159CC0C00D588F5 /* LaunchScreen.storyboard in Resources */,
 				5336037C2159CC0C00D588F5 /* Assets.xcassets in Resources */,
-				533603772159CC0B00D588F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +350,9 @@
 				53C1DD852159DF7400D3F3EF /* Target_VacateApply.m in Sources */,
 				5336037A2159CC0B00D588F5 /* VacateMoudle.xcdatamodeld in Sources */,
 				5351E672215A29A3005DFF9A /* ComponentScheduler+VacateApplyViewController.m in Sources */,
+				530ACEAA215B5C2D00E128B8 /* main.m in Sources */,
 				5351E66F215A2991005DFF9A /* VacateApplyViewController.m in Sources */,
+				530ACEAF215B5D7B00E128B8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,14 +388,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		533603752159CC0B00D588F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				533603762159CC0B00D588F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5336037D2159CC0C00D588F5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
